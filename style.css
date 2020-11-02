@@ -14,9 +14,6 @@ main{
   grid-row: 2;
   width: 100vw;
   display: flex;
-  margin-top: 50px;
-
-  
 }
 
 #showcase img {
