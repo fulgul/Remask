@@ -1,58 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&family=Quicksand:wght@400;700&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-.font-quicksand{
-  font-family: 'Quicksand', serif;
-  font-size: 18pt;
-}
 body {
   display: grid;
   grid-template-columns: repeat(3) 1fr;
   grid-template-rows: 10vh, repeat(4) 1fr, 14vh;
 }
 
-header{
-  grid-column: 1 / 4;
-  grid-row: 1;
-  display: flex;
-  margin-top: 1rem;
-}
-.logo-container {
-  grid-column: 1;
-  grid-row: 1;
-  margin: 10px 0 0 20px;
-  width: auto;
-}
-
-.logo-container img {
-  width: calc(50% + 100px);
-}
-
-nav {
+main{
   width: 100%;
-  margin-left: 10px;
+}
+  
+#showcase {
+  grid-column: 1 /4;
+  grid-row: 2;
+  width: 100vw;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+  margin-top: 50px;
+
   
 }
 
-nav ul {
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
+#showcase img {
+  max-width: 50vw;
+  object-fit: cover;
 }
-
-nav ul li a {
-  text-decoration: none;
-}
-nav ul li {
-  list-style-type: none;
-  float: left;
-  margin-right: 8vw;
-}
-  
