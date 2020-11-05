@@ -1,14 +1,13 @@
-
 body {
   display: grid;
   grid-template-columns: repeat(3) 1fr;
   grid-template-rows: 10vh, repeat(4) 1fr, 14vh;
 }
 
-main{
+main {
   width: 100%;
 }
-  
+
 #showcase {
   grid-column: 1 /4;
   grid-row: 2;
@@ -18,5 +17,14 @@ main{
 
 #showcase img {
   max-width: 50vw;
+  object-fit: cover;
+}
+
+.textbox{
+  margin: 20px 0 20px 20px;
+}
+
+#promotion img {
+  max-width: 100vw;
   object-fit: cover;
 }
