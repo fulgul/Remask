@@ -4,10 +4,6 @@ body {
   grid-template-rows: 10vh, repeat(4) 1fr, 14vh;
 }
 
-main {
-  width: 100%;
-}
-
 #showcase {
   grid-column: 1 /4;
   grid-row: 2;

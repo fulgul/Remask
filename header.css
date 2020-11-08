@@ -1,3 +1,4 @@
+
 header {
   display: flex;
   padding: 40px 0;
@@ -5,8 +6,9 @@ header {
 }
 
 .logo-container {
+  display: inline-block;
   margin: 0 0 0 50px;
-  width: auto;
+  width: 500px;
 }
 
 .logo-container img {
@@ -29,11 +31,12 @@ nav {
 nav ul {
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
 }
 
 nav ul li {
   list-style-type: none;
+  margin-right: 8vw;
 }
 
 nav ul li a {
@@ -59,5 +62,20 @@ li:hover::after {
   }
   nav ul {
     justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 920px){
+  header{
+    display: inline;
+  }
+  .logo-container{
+    width: fit-content;
+    margin: 0;
+    position: fixed;
+    left: 50%;
+    top: 20px;
+    transform: translate(-50%);
+
   }
 }
