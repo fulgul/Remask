@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .html{
   --light: #ffffff;
   --ligtShadeGreen: #88d6b6;
@@ -15,7 +16,7 @@
 
 .font-quicksand{
   font-family: 'Quicksand', serif;
-  font-size: 18pt;
+  font-size: 28pt;
 }
 .font-eb-garamond{
   font-family: 'EB Garamond', serif;
