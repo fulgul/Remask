@@ -24,17 +24,17 @@ header {
 }
 
 nav {
-  width: 60%;
+  flex-grow: 1;
 }
 
 nav ul {
-  width: 100%;
   display: flex;
   justify-content: space-around;
 }
 
 nav ul li {
   list-style-type: none;
+  margin-right: 10px;
 }
 
 nav ul li a {
@@ -55,16 +55,17 @@ li:hover::after {
 }
 
 @media screen and (max-width: 1200px) {
-  nav ul li {
-    margin-right: 20px;
-  }
-  nav ul {
-    justify-content: flex-start;
-  }
+
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1050px){
   .logo-container{
-    margin-left: 0;
+    position: fixed;
+    left: 50%;
+    top: 40px;
+    transform: translateX(-50%);
+  }
+  nav{
+    margin-top: 100px;
   }
 }
